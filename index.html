@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+           
+            
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/tomsn.png" alt="">
+            </div>
+            <h1>Tomas Grote </h1>
+            <h2> TECNICO SUPERIOR EN PROGRAMACION </h2>
+            <h2>&</h2>
+            <h2> ANALISTA DE DATOS </h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/tommy.grote/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/TommyGrote"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tomas-grote-porfilio-88a5b2234/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí -  About me</h2>
+            <p><span>Hola!, soy Tomas Grote Porfilio.</span> Actualmente tengo 19 años y resido en Buenos Aires, Argentina. 
+                Me encuentro estudiando una <span>Tecnicatura Superior en Programación - Certificado de Análisis de Datos de Google & Desarollador Front-end NodeJS FullStack en "codo a codo".</span></p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3 class="data">Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong> ● Nacimiento</strong>
+                            24-01-2003
+                        </li>
+                        <li>
+                            <strong> ● Contacto</strong>
+                            011 1521781505
+                        </li>
+                        <li>
+                            <strong> ● Gmail</strong>
+                            tomasgroteporfilio2442@gmail.com
+                        </li>
+                        <li>
+                            <strong>● Localidad</strong>
+                            Argentina, Buenos Aires, CABA
+                        </li>
+                        <li>
+                            <strong> ● Trabajo Actual</strong>
+                            Supervisor de guardaparques
+                        </li>
+                        <li>
+                            <strong> ● Empresa</strong>
+                            <span>Gobierno de la Ciudad de Buenos Aires</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3 class="inte">Intereses personales</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span> COCINAR </span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span> ANIME </span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>DISEÑO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades - Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Programacion</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NodeJS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> Pack Adobe & Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Analisis de datos</h3>
+                    <div class="skill">
+                        <span>MySQL & PostgreSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Hojas de caluclo (Excell & GoogleSpreedshets)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PowerBI & Tableau </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python & R</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <button class="btn">
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>
+                Curriculum -  CV
+            </h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria en Sistemas</h4>
+                        <span class="casa">Universidad Abierta Interamericana</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Estudie un año de Ingeniera en Sistemas, en donde aprendi los conceptos basicos e intermedios sobre bases de datos y sobre como se almacena la informacion en los procesadores. Por otro lado aprendi a trabajar y programar con el Lengua C Y C++</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnicatura Superior en Programacion</h4>
+                        <span class="casa">Tecnico Superior TecLab</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>Actualmente estudiando, en esta adquiri conocimientos en Diseño - bases de datos SQL,MYSQL - Gestion operativa en la nube Cloud con AWS y actualmente Programacion WEB</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificado Analisis de datos</h4>
+                        <span class="casa">Google</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Actualmente cursando. Este certificado me brinda conocimientos profesionales en Hojas de caluclo - Bases de Datos SQL - Visualizacion de datos con Tableau - Programacion con R </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Diseñador Grafico</h4>
+                        <span class="casa">Showys</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p>Emprendimiento en el cual mi trabajo era el diseño para microempresas o otros emprendimientos. Me especializo en diseño de redes, flyers, ropa, logos y portadas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarollador WEB</h4>
+                        <span class="casa">FREELANCE</span>
+                        <span class="fecha">2020 - Actualidad</span>
+                        <p>En este mi trabajo era la atencion al cliente, el diseño, maquetado y el desarollo de la pagina web. Usualmente contratado por restaurantes, gimnasios y emprendimientos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Administrador de deposito y factura</h4>
+                        <span class="casa">K24 & M24</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Puesto de trbajo en el que destaque por la resolucion de problemas y la atencion al cliente. Mis deberes diarios eran mantener el deposito, las facturas y el sistema de cobro administrados al mismo tiempo que atendia clientes.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/data43.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Dashboard</h3>
+                        <p>-Analisis de datos-</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/pic 2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Pagina WEB Animada</h3>
+                        <p>-Desarollo web-</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/pic3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño WEB (Figma)</h3>
+                        <p>-Diseño-</p>
+                    </div>
+                </div>
+              
+                <div class="proyecto">
+                    <img src="img/lastpic.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Foto edit</h3>
+                        <p>-Fotografia & Edicion-</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/pic4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Dashboard PowerBI</h3>
+                        <p>-Analisis de datos-</p>
+                    </div>
+                </div>
+               
+                <div class="proyecto">
+                    <img src="img/pic86.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Pagina WEB NFT</h3>
+                        <p>-Diseño y Desarollo-</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/pic876.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Pagina WEB "Showys"</h3>
+                        <p>-Desarollo y Diseño-</p>
+                    </div>
+                </div> 
+                <div class="proyecto">
+                    <img src="img/pic7774.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto SQL</h3>
+                        <p>-Bases de datos-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Argentina,Buenos Aires,CABA
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +54 011 1521781505
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: tomasgrote@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/tommy.grote/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/TommyGrote"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tomas-grote-porfilio-88a5b2234/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
